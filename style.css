@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&family=Montserrat:wght@100&family=Roboto:wght@100&family=Space+Mono&display=swap');
+
+:root{
+--theme-color-primary-color: #222831;
+--theme-color-primary-color-alt: #393e46;
+--theme-color-secondary-color: #495c83;
+--theme-color-secondary-color-alt: #7a86b6;
+--theme-color-accent-color: #d1274b;
+--theme-color-accent-color-alt: #d1274b;
+--theme-color-background-color: #eee;
+--theme-color-light-color: #fff4e4;
+--theme-color-dark-color: #222831;
+
+--theme-text-font-family-Roboto: 'Roboto', sans-serif;
+--theme-font-family-Montserrat: 'Montserrat', sans-serif;
+--theme-text-font-family-mono: 'Space Mono', monospace;
+--theme-text-font-family-handlee: 'Handlee', cursive;
+--theme-text-font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: #fff4e4;
+    
+    
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+ 
+    box-sizing: border-box;
+ 
+    font-family: sans-serif;
+}
+
+/* Main page */
+#main{
+    background: var(--theme-color-dark-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0 20px 20px;
+}
+
+#main-page{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem ;
+}
+
+#Title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    color: var(--theme-color-light-color);
+}
+
+/* Main buttons */
+#main-buttons{
+    font-family: 'Space Mono', monospace;
+    background-color: var(--theme-color-accent-color);
+    color: var(--theme-color-background-color);
+    margin: auto;
+    padding: 10px;
+    border-radius: 0 5px 0 5px;
+    border: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+/* Booster draft */
+section #cards{
+    background-color: #d1274b;
+    justify-content: center;
+}
+
+section div .btn{
+    font-family: 'Space Mono', monospace;
+
+    background-color: var(--theme-color-accent-color);
+    color: var(--theme-color-background-color);
+    
+    margin: auto;
+    padding: 10px;
+    border-radius: 0.5rem 0 0.5rem 0;
+    border: 0;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+section #controls{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    background-color: var(--theme-color-dark-color);
+    border-radius: 1rem;
+
+    color: var(--theme-color-light-color);
+    font-family: var(--theme-font-family);
+    
+    width: 500px;
+    gap: 0.5rem;
+    
+    height: 100%;
+
+}
+
+body h2{
+    background-color: var(--theme-color-accent-color);
+    color: var(--theme-color-light-color);
+    font-family: var(--theme-font-family);
+    
+    border-radius: 1rem;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4rem;
+    width: 95%;
+
+}
+
+section  div #butons{
+    display: flex;
+    gap: 2rem;
+}
+
+#booster_draft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 1rem;
+    position: relative;
+    
+}
+
+#controles{
+    gap: 2rem;
+}
+#controles > #controls{
+    width: 50rem;
+    position: sticky;
+}
+.container_card{
+    width: 100%;
+}
+
+.cotainer{  
+    display: flex;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+img{
+    height: 50vh;
+    margin: 7px;
+}
+/* hover de las cartas */
+#land1 > img:hover{
+    height: 51vh;
+}
+
+/*deck*/
+
+#deck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Actions{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    background-color: var(--theme-color-dark-color);
+    border-radius: 1rem;
+
+    color: var(--theme-color-light-color);
+    font-family: var(--theme-font-family);
+    
+    width: 500px;
+    gap: 0.5rem;
+    
+    height: 100%;
+}
+h5{
+    font-family: var(--theme-text-font-family-Roboto );
+    font-size: x-large;
+}
